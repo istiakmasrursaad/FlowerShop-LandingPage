@@ -25,3 +25,18 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+.dark02{
+  color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+
+
+.bg-letter{
+  background-image: url(assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
