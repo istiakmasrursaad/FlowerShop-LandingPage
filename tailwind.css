@@ -40,3 +40,56 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+
+@media screen and ( max-width: 576px) {
+ 
+ .hid{
+  width: 100%;
+  display: none;
+ }
+ .bannerSec{
+  flex-direction: column;
+  grid-template-columns: repeat(1, 1fr);
+
+ }
+ .cardSec{
+  flex-direction: column;
+  grid-template-columns: repeat(2, 1fr);
+
+
+ }
+ 
+ .productSec{
+  width: 100%;
+  margin-top: 300px;
+ }
+ .productDes{
+  align-items: center;
+  text-align: start;
+  margin: 0 auto;
+  padding-right: 0px;
+  padding-left: 50px;
+ }
+ .mainClass,
+ .navbar{
+  width: 100%;
+ }
+ .item2 { order: 2; }
+  .item1 { order: 1; }
+ 
+  .loverSec{
+  flex-direction: column;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top:1100px;
+ }
+
+ .loverDescrip{
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+ }
+  
+}
